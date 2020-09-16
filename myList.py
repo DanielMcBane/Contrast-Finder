@@ -28,7 +28,10 @@ html_file.write(html_str)
 import webbrowser
 webbrowser.open_new_tab("myList.html")
 
+# Had an error on most recent test that needs to be looked into.
+
 ##
 # for path,dirs,files in os.walk(start_path): #prints everything in the directory and all subdirectories
 #     for filename in files:
 #         print(os.path.join(path,filename))
+
